@@ -1,10 +1,12 @@
-# Jetbrains mono on Android phones
+# LXGW Wenkai on Android Phones
 
-Imo it's a nice font, so feel FREE to install it on your phone (looking at you androidacy).
+在安卓设备上设置系统字体为 落霞孤鹜文楷字体
 
 ### Disclaimer
-Needless to say, you will need magisk. Also, it does not work on Android 16.X . The good old days of iconify + easy custom fonts are gone, but you can generate a valid one with ZFont 3. 
 
-<img width="245" height="555" alt="image" src="https://github.com/user-attachments/assets/d3bc1126-4271-422c-9807-80702aa61ef2" />
-<img width="245" height="555" alt="image" src="https://github.com/user-attachments/assets/a5164ac3-8698-476c-a4f7-2f737c8cf404" />
-<img width="245" height="555" alt="image" src="https://github.com/user-attachments/assets/210ff886-c4e2-4b1c-b547-d27133a842e2" />
+需要先安装 KernelSU/SukiSu 等管理器，然后下载源码，运行 `packer.sh` 即可打包。也可以从release下载打包好的文件。
+
+若不打包 `system/product`，则只会修改软件的字体，而不会修改 Google 软件的字体；本仓库中替换了 Google 的字体。
+
+| ![image-20260401023431679](https://testingcf.jsdelivr.net/gh/neoluxis/image/archlinux/8051-uniplatform/202604010234013.png) | ![image-20260401023606388](https://testingcf.jsdelivr.net/gh/neoluxis/image/archlinux/8051-uniplatform/202604010236716.png) | ![image-20260401023743012](https://testingcf.jsdelivr.net/gh/neoluxis/image/archlinux/8051-uniplatform/202604010237847.png) |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
